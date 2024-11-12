@@ -7,7 +7,6 @@ type Size = "small" | "default" | "large";
 
 interface ExtraInformationProps {
   type: "tooltip" | "modal";
-  open?: boolean;
   title?: string;
   description?: string;
   size?: Size;
